@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c9d6ff;
+    background: linear-gradient(to left, #e2e2e2, #c9d6ff);
+}
+
+.Container {
+    background-color: #fff;
+    width: 450px;
+    padding: 1.5rem;
+    margin: 150px auto;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px rgba(0, 0, 1, 0.8);
+}
+
+form {
+    margin: 0 2rem;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+
+input {
+    color: inherit;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-left: 1.5rem;
+    font-size: 15px;
+}
+
+.input-group {
+    position: relative;
+    padding: 1% 0;
+}
+
+.input-group i {
+    position: absolute;
+}
+
+input:focus {
+   background-color: transparent;
+   outline: transparent;
+   border-bottom: 2px solid hsl(347, 90%, 28%);
+}
+
+input::placeholder {
+    color: transparent;
+}
+
+label {
+    color: #757575;
+    position: relative;
+    left: 1.2rem;
+    top: -1.3rem;
+    cursor: auto;
+    transition: 0.3s ease all;
+}
+
+input:focus~label,input:not(:placeholder-shown)~label {
+    top: -3em;
+    font-size: 15px;
+    color: hsl(347, 90%, 28%);
+}
+
+.recover {
+    text-align: right;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.recover a {
+    color: rgb(125, 125, 235);
+    text-decoration: none;
+}
+
+.recover a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn {
+   font-size: 1.1rem;
+   background-color: rgb(125, 125, 235);
+   color: white;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   outline: none;
+   padding: 8px 0;
+   border-radius: 5px; 
+   transition: 0.5s; 
+}
+
+.btn:hover {
+    background-color: #1f0965;
+}
+
+.or {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.icon-link {
+    text-align: center;
+}
+
+.icon-link i {
+    color: rgb(125, 125, 235);
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: 2px solid #dfe9f5;
+    cursor: pointer;
+    margin: 0 15px;
+    transition: 0.1s;
+}
+
+.icon-link i:hover {
+    background-color: rgb(58, 58, 208);
+    color: white;
+    font-size: 1.6rem;
+}
+
+.Already {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 4rem;
+    margin: 0.9rem;
+    font-weight: bold;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: rgb(125, 125, 235);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
